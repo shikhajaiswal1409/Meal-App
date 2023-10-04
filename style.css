@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Onest', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #003049;
+    color: #fdf0d5;
+}
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+
+/* header navbar */
+#nav {
+    box-shadow: 2px 2px #669bbc ;
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fdf0d5;
+}
+
+
+/* meal card */
+#card {
+    background-color: #c1121f;
+    padding: 10px;
+    color: #fdf0d5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+#card img {
+    border-radius: 50%;
+}
+
+
+/* meal details container */
+#meal-details {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #c1121f;
+    margin: auto;
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* favourites offcanvus */
+#favourites-body {
+    background-color: #003049;
+}
+
+.navbar-brand{
+    color:#fdf0d5;
+
+}
